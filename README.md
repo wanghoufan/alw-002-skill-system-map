@@ -6,11 +6,11 @@
 
 **在线浏览：**[打开 Skill 能力地图](https://wanghoufan.github.io/alw-002-skill-system-map/)
 
-<p align="center">
-  <img src="./assets/screenshots/持续改进.png" alt="持续改进：Skill 迭代热力图与近期更新" width="32%">
-  <img src="./assets/screenshots/工作与生活的流程地图.png" alt="工作流：生活系统和项目交付流程" width="32%">
-  <img src="./assets/screenshots/能力盘点.png" alt="能力盘点：Skill 统计、来源筛选和清单" width="32%">
-</p>
+<p><img src="./assets/screenshots/持续改进.png" alt="持续改进：Skill 迭代热力图与近期更新" width="100%"></p>
+
+<p><img src="./assets/screenshots/工作与生活的流程地图.png" alt="工作流：生活系统和项目交付流程" width="100%"></p>
+
+<p><img src="./assets/screenshots/能力盘点.png" alt="能力盘点：Skill 统计、来源筛选和清单" width="100%"></p>
 
 ## 地图里有什么
 

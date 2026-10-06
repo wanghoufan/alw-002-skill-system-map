@@ -6,11 +6,11 @@ A personal map of reusable skills from work, learning, and everyday life. It sho
 
 **Live site:** [Open the Skill Capability Map](https://wanghoufan.github.io/alw-002-skill-system-map/)
 
-<p align="center">
-  <img src="./assets/screenshots/持续改进.png" alt="Continuous improvement: Skill activity heatmap and recent updates" width="32%">
-  <img src="./assets/screenshots/工作与生活的流程地图.png" alt="Workflows: life system and project delivery" width="32%">
-  <img src="./assets/screenshots/能力盘点.png" alt="Capability inventory: Skill statistics, filters, and list" width="32%">
-</p>
+<p><img src="./assets/screenshots/持续改进.png" alt="Continuous improvement: Skill activity heatmap and recent updates" width="100%"></p>
+
+<p><img src="./assets/screenshots/工作与生活的流程地图.png" alt="Workflows: life system and project delivery" width="100%"></p>
+
+<p><img src="./assets/screenshots/能力盘点.png" alt="Capability inventory: Skill statistics, filters, and list" width="100%"></p>
 
 ## What the map shows
 
