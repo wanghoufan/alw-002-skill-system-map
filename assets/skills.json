@@ -1,0 +1,546 @@
+{
+  "source": "中央仓库 SKILL-REGISTRY.md",
+  "asOf": "2026-10-06",
+  "skills": [
+    {
+      "id": 1,
+      "name": "frontend-design-trans-zh",
+      "domain": "UI 与视觉设计",
+      "source": "官方上游 · Anthropic · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.4",
+      "updated": "2026-09-24",
+      "summary": "将英文前端设计指导汉化为中文，保留原始设计原则、命令和技术术语，并提供上游链接和汉化版本追踪"
+    },
+    {
+      "id": 2,
+      "name": "theme-factory-trans-zh",
+      "domain": "UI 与视觉设计",
+      "source": "官方上游 · Anthropic · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.4",
+      "updated": "2026-09-24",
+      "summary": "将 10 套主题的展示、选择、应用流程及颜色字体说明完整汉化为中文阅读版；主题色值与字体名与英文原版逐字符一致（已修正上一版 9 个文件的色值不符问题）"
+    },
+    {
+      "id": 3,
+      "name": "agent-central-mapping-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建",
+      "kind": "self",
+      "version": "版本未声明",
+      "updated": "2026-09-24",
+      "summary": "让多个编码智能体或 IDE 从同一个中央仓库读取规则和 Skill"
+    },
+    {
+      "id": 4,
+      "name": "batch-organize-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建",
+      "kind": "self",
+      "version": "0.1.1-template",
+      "updated": "2026-09-24",
+      "summary": "通用「一批杂乱原始素材 → 统一规范成品」批量整理骨架：状态位(幂等)+大模型/脚本分工范式，供跨任务、设备和智能体复用"
+    },
+    {
+      "id": 5,
+      "name": "batch-skill-localizer-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.1.0",
+      "updated": "2026-09-24",
+      "summary": "【版本 1.1.0】批量发现、完整汉化、外部证据分级、L1-L5 运行审计和 Smoke Test，再按 A/B/C 版式登记与导入"
+    },
+    {
+      "id": 6,
+      "name": "bilibili-download-check-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-09-24",
+      "summary": "对比 B 站投稿与本地已下载视频，生成未下载清单并按关键词筛选"
+    },
+    {
+      "id": 7,
+      "name": "coding-workspace-organizer-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建",
+      "kind": "self",
+      "version": "版本未声明",
+      "updated": "2026-09-24",
+      "summary": "整理编码工作区，拍平目录、统一命名并生成索引"
+    },
+    {
+      "id": 8,
+      "name": "mcp-one-command-setup",
+      "domain": "效率提升与自动化",
+      "source": "自建",
+      "kind": "self",
+      "version": "版本未声明",
+      "updated": "2026-09-24",
+      "summary": "为本地 MCP 服务编写零依赖的一键安装器：探测客户端、安全更新 JSON/TOML 配置，并通过真实 stdio JSON-RPC 握手验证"
+    },
+    {
+      "id": 9,
+      "name": "mcp-one-command-setup-trans-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 自建译本",
+      "kind": "self",
+      "version": "1.0.0-zh.4",
+      "updated": "2026-09-24",
+      "summary": "将 MCP 零依赖一键安装、客户端表、TOML 安全修补、dry-run、check 与 JSON-RPC 真实握手要求完整汉化为中文阅读版"
+    },
+    {
+      "id": 10,
+      "name": "computer-use",
+      "domain": "效率提升与自动化",
+      "source": "官方上游 · Orca",
+      "kind": "official",
+      "version": "上游未声明（commit 122b8c2）",
+      "updated": "2026-09-24",
+      "summary": "通过 Orca 控制可见应用窗口；优先使用 CLI、文件系统或 API，仅在需要桌面 GUI 时调用"
+    },
+    {
+      "id": 11,
+      "name": "computer-use-trans-zh",
+      "domain": "效率提升与自动化",
+      "source": "官方上游 · Orca · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-09-27",
+      "summary": "computer-use 中文完整阅读版，含 GUI 操作边界、CLI 选择规则、L1-L5 与 Smoke Test 审计"
+    },
+    {
+      "id": 12,
+      "name": "orca-cli",
+      "domain": "效率提升与自动化",
+      "source": "官方上游 · Orca",
+      "kind": "official",
+      "version": "上游未声明（commit 122b8c2）",
+      "updated": "2026-09-24",
+      "summary": "通过 Orca CLI 管理 worktree、终端、仓库、自动化、制品、技能分享和内置浏览器"
+    },
+    {
+      "id": 13,
+      "name": "orca-cli-trans-zh",
+      "domain": "效率提升与自动化",
+      "source": "官方上游 · Orca · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-09-27",
+      "summary": "orca-cli 中文完整阅读版，说明 Orca CLI 使用范围、会话 CLI 选择和版本匹配指南"
+    },
+    {
+      "id": 14,
+      "name": "github-portfolio-sync-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.3.1",
+      "updated": "2026-09-24",
+      "summary": "采集 GitHub 仓库，清洗 README 噪声后生成项目全景背景档案（含网络重试、主题分组与停滞预警）"
+    },
+    {
+      "id": 15,
+      "name": "github-readme-maintainer-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.8.0",
+      "updated": "2026-10-06",
+      "summary": "编写、审查和维护 GitHub README、配套项目文档，以及仓库 About 简介；Website 优先已验证的 GitHub Pages，其次 Vercel；Android APK 发布附已签名安装包和中英文 Release"
+    },
+    {
+      "id": 16,
+      "name": "project-steward-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.2.0",
+      "updated": "2026-10-05",
+      "summary": "在任何智能体里用一句自然语言激活项目管家角色，定位工作区真源后由确定性 CLI 落地草稿、正式项目、晋升与体检；含多端姊妹仓登记与两台电脑 git 同步入口；本 Skill 只负责激活与定位，不复述治理规则"
+    },
+    {
+      "id": 17,
+      "name": "nextjs-github-pages-deploy-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.2.0",
+      "updated": "2026-10-05",
+      "summary": "Next.js 部署 GitHub Pages 项目页的避坑手册：双线上线（Vercel + Pages）总则、静态导出改造、API 路由构建期排除、业务逻辑同构化与前端兜底、'use client' 页面拆壳、basePath "
+    },
+    {
+      "id": 18,
+      "name": "orchestration",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · Orca",
+      "kind": "official",
+      "version": "上游未声明（commit 122b8c2）",
+      "updated": "2026-09-24",
+      "summary": "通过 Orca 协调智能体消息、任务派发、等待、DAG 与监督流程"
+    },
+    {
+      "id": 19,
+      "name": "orchestration-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · Orca · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-09-27",
+      "summary": "orchestration 中文完整阅读版，说明 Orca 多智能体监督协作、任务派发、DAG 与交接边界"
+    },
+    {
+      "id": 20,
+      "name": "github",
+      "domain": "软件开发与项目协作",
+      "source": "社区上游",
+      "kind": "other",
+      "version": "上游未声明",
+      "updated": "2026-09-24",
+      "summary": "使用 gh CLI 管理 GitHub Issue、PR、CI 工作流和 API 查询"
+    },
+    {
+      "id": 21,
+      "name": "github-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "社区上游 · 中文译本",
+      "kind": "other",
+      "version": "1.0.0-zh.6",
+      "updated": "2026-09-24",
+      "summary": "将 GitHub Issue、PR、CI 和 gh CLI 使用说明汉化，并同步完整 CI 失败排查流程"
+    },
+    {
+      "id": 22,
+      "name": "grill-me-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "待核验 · 中文译本",
+      "kind": "other",
+      "version": "1.1.0-zh.2",
+      "updated": "2026-09-24",
+      "summary": "中文阅读版，记录旧版 standalone 与当前 wrapper 的差异、社区证据、本地源指纹；Codex 多轮 Smoke Test 实测英文原版，译本未部署、L4/L5 未验证"
+    },
+    {
+      "id": 23,
+      "name": "ponytail-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "社区上游 · 中文译本",
+      "kind": "other",
+      "version": "1.1.0-zh.2",
+      "updated": "2026-09-24",
+      "summary": "中文阅读版，含外部独立测评、Hook/Plugin 前置条件与 L1-L5 审计；Codex Smoke Test 实测英文原版，译本未部署、L4/L5 未验证"
+    },
+    {
+      "id": 24,
+      "name": "local-service-change-acceptance-local-zh",
+      "domain": "测试与质量保障",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-09-24",
+      "summary": "用隔离数据和真实入口验收本地长驻服务改动"
+    },
+    {
+      "id": 25,
+      "name": "android-device-target-lock-local-zh",
+      "domain": "测试与质量保障",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-06",
+      "summary": "按用户指定的 Android 手机型号核验 ADB 设备并跨项目固定目标；仅在用户明确切换时更新绑定"
+    },
+    {
+      "id": 26,
+      "name": "android-moments-cleanup-local-zh",
+      "domain": "测试与质量保障",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-09-24",
+      "summary": "按指定规则整理 Android 社交动态，并核对操作结果。"
+    },
+    {
+      "id": 27,
+      "name": "win-reveal-and-gui-selftest-local-zh",
+      "domain": "测试与质量保障",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-09-24",
+      "summary": "在 Windows 上定位文件并验证 GUI 操作确实发生"
+    },
+    {
+      "id": 28,
+      "name": "webapp-testing",
+      "domain": "测试与质量保障",
+      "source": "官方上游 · Anthropic",
+      "kind": "official",
+      "version": "上游未声明（commit 34040c9）",
+      "updated": "2026-09-24",
+      "summary": "使用 Python Playwright 检查、调试和测试本地 Web 应用，提供启动服务辅助脚本与示例"
+    },
+    {
+      "id": 29,
+      "name": "webapp-testing-trans-zh",
+      "domain": "测试与质量保障",
+      "source": "官方上游 · Anthropic · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-09-24",
+      "summary": "将 Python Playwright 本地 Web 测试指南、示例脚本和服务器辅助工具完整汉化为中文阅读版，附覆盖记录及运行审计"
+    },
+    {
+      "id": 30,
+      "name": "orca-emulator-android",
+      "domain": "测试与质量保障",
+      "source": "官方上游 · Orca",
+      "kind": "official",
+      "version": "上游未声明（commit 122b8c2）",
+      "updated": "2026-09-24",
+      "summary": "通过 Orca CLI 和 Android SDK / adb 操作 Android 模拟器或连接设备，进行输入、安装启动、权限、无障碍树和 logcat 检查"
+    },
+    {
+      "id": 31,
+      "name": "orca-emulator-android-trans-zh",
+      "domain": "测试与质量保障",
+      "source": "官方上游 · Orca · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-09-24",
+      "summary": "Orca Android 模拟器与设备控制英文 Skill 的中文阅读版；完整翻译发现入口，提供运行有效性和环境审计"
+    },
+    {
+      "id": 32,
+      "name": "vercel-blocked-deploy-triage-local-zh",
+      "domain": "部署与运维",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.2.1",
+      "updated": "2026-09-24",
+      "summary": "诊断并解除 Vercel 部署被 BLOCKED 或线上仍为旧版本的问题"
+    },
+    {
+      "id": 33,
+      "name": "chatgpt-secure-mcp-tunnel-local-zh",
+      "domain": "部署与运维",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-06",
+      "summary": "规划、接入和维护安全 MCP 通道。"
+    },
+    {
+      "id": 34,
+      "name": "deploy-to-vercel-trans-zh",
+      "domain": "部署与运维",
+      "source": "官方上游 · Vercel · 中文译本",
+      "kind": "official",
+      "version": "3.0.0-zh.4",
+      "updated": "2026-09-24",
+      "summary": "将 Vercel 部署流程完整汉化为中文阅读版，保留全部部署分支、团队选择、沙箱备用方案、输出规则和故障排查"
+    },
+    {
+      "id": 35,
+      "name": "netlify-deploy-trans-zh",
+      "domain": "部署与运维",
+      "source": "官方上游 · Netlify · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.3",
+      "updated": "2026-09-24",
+      "summary": "将英文 netlify-deploy 的 CLI、Git CD、部署上下文、Deploy Previews、部署按钮、密钥扫描与故障排查完整汉化为中文阅读版，含 3 个附属参考文件译文"
+    },
+    {
+      "id": 36,
+      "name": "ai-coding-homework-writeup-local-zh",
+      "domain": "内容整理与知识管理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.1",
+      "updated": "2026-09-24",
+      "summary": "把已完成的 AI 编程项目写成能交的作业材料：核实项目事实、控制长度、输出富文本（图片置末）"
+    },
+    {
+      "id": 37,
+      "name": "course-md-organize-local-zh",
+      "domain": "内容整理与知识管理",
+      "source": "自建",
+      "kind": "self",
+      "version": "2.1.1",
+      "updated": "2026-09-24",
+      "summary": "将课程 Markdown 做校对、分段和总结，整理为可读文稿"
+    },
+    {
+      "id": 38,
+      "name": "course-pdf-to-md-local-zh",
+      "domain": "内容整理与知识管理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.4.2",
+      "updated": "2026-09-24",
+      "summary": "将课程 PDF 批量提取、清洗并整理为章节 Markdown"
+    },
+    {
+      "id": 39,
+      "name": "course-knowledge-card-local-zh",
+      "domain": "内容整理与知识管理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.1.1",
+      "updated": "2026-09-28",
+      "summary": "把课程内容整理成便于复习的知识卡片和长图。"
+    },
+    {
+      "id": 40,
+      "name": "proxy-region-benchmark-local-zh",
+      "domain": "内容整理与知识管理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-09-28",
+      "summary": "将代理节点/地区重复测速从采集方案、执行与数据核验，整理到含白话术语说明、可视化和有边界结论的完整报告"
+    },
+    {
+      "id": 41,
+      "name": "obsidian",
+      "domain": "内容整理与知识管理",
+      "source": "官方上游 · OpenClaw",
+      "kind": "official",
+      "version": "上游未声明",
+      "updated": "2026-09-24",
+      "summary": "使用官方 obsidian CLI 管理 Obsidian 知识库、笔记、任务、链接、属性和插件"
+    },
+    {
+      "id": 42,
+      "name": "obsidian-trans-zh",
+      "domain": "内容整理与知识管理",
+      "source": "官方上游 · OpenClaw · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.5",
+      "updated": "2026-09-24",
+      "summary": "将官方 obsidian CLI 的 Obsidian 知识库、笔记、任务、链接、属性和调试说明汉化为中文阅读版"
+    },
+    {
+      "id": 43,
+      "name": "central-skill-creator-mac-local-zh",
+      "domain": "Skill 创建与治理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.3",
+      "updated": "2026-09-24",
+      "summary": "在 Mac 端中央仓库创建、验证和登记 Skill，完成后询问是否复制到当前项目"
+    },
+    {
+      "id": 44,
+      "name": "central-skill-creator-pc-local-zh",
+      "domain": "Skill 创建与治理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.3",
+      "updated": "2026-09-24",
+      "summary": "在 Windows 11 中央仓库创建、验证和登记 Skill，完成后询问是否复制到当前项目"
+    },
+    {
+      "id": 45,
+      "name": "project-skill-creator-mac-local-zh",
+      "domain": "Skill 创建与治理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.3",
+      "updated": "2026-09-24",
+      "summary": "在 Mac 当前项目根目录创建或优化项目级 Skill，验收后询问是否复制到 Mac 中央仓库"
+    },
+    {
+      "id": 46,
+      "name": "project-skill-creator-pc-local-zh",
+      "domain": "Skill 创建与治理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.3",
+      "updated": "2026-09-24",
+      "summary": "在 Windows 11 当前项目根目录创建或优化项目级 Skill，验收后询问是否复制到 PC 中央仓库"
+    },
+    {
+      "id": 47,
+      "name": "skill-manager-governance-local-zh",
+      "domain": "Skill 创建与治理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.5.0",
+      "updated": "2026-09-28",
+      "summary": "Skill 管理入口与日报复核；按项目文件夹编号定位项目，记录开发困扰、检查相关项目/Git/GitHub 证据并评估现有或外部 Skill；已安装 Skill 的安全兼容更新按授权自动维护，新安装等操作仍需用户确认"
+    },
+    {
+      "id": 48,
+      "name": "skill-manager-agent-skill-audit-local-zh",
+      "domain": "Skill 创建与治理",
+      "source": "自建",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-09-24",
+      "summary": "新 Agent 接入后核对 SM 适用范围、目标目录、部署、Preset、菜单发现和会话内真实调用"
+    },
+    {
+      "id": 49,
+      "name": "find-skills",
+      "domain": "Skill 创建与治理",
+      "source": "官方上游 · Vercel",
+      "kind": "official",
+      "version": "上游未声明",
+      "updated": "2026-09-24",
+      "summary": "发现、质量核验和安装智能体 Skill"
+    },
+    {
+      "id": 50,
+      "name": "find-skills-trans-zh",
+      "domain": "Skill 创建与治理",
+      "source": "官方上游 · Vercel · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.7",
+      "updated": "2026-09-24",
+      "summary": "将发现和安装 Skill 的说明完整汉化为中文阅读版，同步排行榜优先、质量核验、安装量、来源信誉、GitHub stars 和 owner 筛选"
+    },
+    {
+      "id": 51,
+      "name": "skill-creator-trans-zh",
+      "domain": "Skill 创建与治理",
+      "source": "官方上游 · Anthropic · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.3",
+      "updated": "2026-09-24",
+      "summary": "将英文 skill-creator 的创建、测试、评估、迭代与交付流程完整汉化为中文阅读版（B 段逐段对应原文 28 个标题），并翻译 references 与 agents 四份附属文档"
+    },
+    {
+      "id": 52,
+      "name": "manage-skills-trans-zh",
+      "domain": "Skill 创建与治理",
+      "source": "社区上游 · 中文译本",
+      "kind": "other",
+      "version": "1.0.0-zh.5",
+      "updated": "2026-09-24",
+      "summary": "将 Skill Manager CLI 的安装、查询、更新、删除、接管、来源切换、标签、预设、部署、停用和故障处理完整汉化为中文阅读版（B 段逐段对应原文 20 个标题与全部代码注释）"
+    },
+    {
+      "id": 53,
+      "name": "browseros-neo",
+      "domain": "浏览器自动化",
+      "source": "待核验",
+      "kind": "other",
+      "version": "版本未声明",
+      "updated": "2026-09-24",
+      "summary": "BrowserOS Neo 英文执行版：使用真实浏览器执行网页操作、登录态读取、下载和浏览器 QA 验收"
+    },
+    {
+      "id": 54,
+      "name": "browseros-neo-trans-zh",
+      "domain": "浏览器自动化",
+      "source": "待核验 · 中文译本",
+      "kind": "other",
+      "version": "1.0.0-zh.2",
+      "updated": "2026-09-24",
+      "summary": "BrowserOS Neo 中文阅读版：帮助用户理解真实浏览器操作、QA 验收、登录态和隐私边界"
+    }
+  ]
+}
