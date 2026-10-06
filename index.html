@@ -24,28 +24,21 @@
   <div class="wrap">
     <header class="top">
       <a class="brand" href="#top" style="text-decoration:none"><span class="mark">✳</span>个人 Skill 能力地图</a>
-      <nav aria-label="页面导航"><a href="#skills">能力分布</a><a href="#workflow">开发流程</a><a href="#inventory">Skill 列表</a><a href="#iteration">迭代记录</a></nav>
+      <nav aria-label="页面导航"><a href="#iteration">持续改进</a><a href="#workflow">开发流程</a><a href="#skills">能力盘点</a></nav>
     </header>
     <main id="top">
       <section class="hero">
         <div><div class="kicker">工作方法持续生长</div><h1>把经验，变成<br>可复用的能力。</h1><p>一张关于个人 Skill 资产的地图。看清我会什么、从哪里来，也看见工作流程中还可以补上的位置。</p></div>
         <aside class="hero-note"><strong>数据说明</strong><span>清单来自中央 Skill 登记档案。官方上游、自建和其他来源分开展示；迭代热力图只统计登记记录。</span></aside>
       </section>
-      <section class="stats" aria-label="Skill 来源统计">
-        <div class="stat"><small>登记 Skill</small><strong id="total">—</strong><div class="hint">按登记条目统计</div></div>
-        <div class="stat"><small>自建</small><strong id="selfCount">—</strong><div class="hint">原创或实操沉淀</div></div>
-        <div class="stat"><small>官方上游</small><strong id="officialCount">—</strong><div class="hint">来自产品或项目官方仓库</div></div>
-        <div class="stat"><small>社区 / 待核验</small><strong id="otherCount">—</strong><div class="hint">外部社区来源或来源待确认</div></div>
-      </section>
-
-      <section class="section" id="skills">
-        <div class="section-head"><div><div class="eyebrow">01 / 能力盘点</div><h2>我的能力分布</h2><p>按 Skill 的主要用途归类；译本单独列为登记条目，来源关系会明确标出。</p></div></div>
-        <div class="source-filters" id="sourceFilters" aria-label="按来源筛选"><span class="filter-label">来源：</span></div>
-        <div class="domains" id="domainFilters" aria-label="按能力领域筛选"></div>
+      <section class="section" id="iteration">
+        <div class="section-head"><div><div class="eyebrow">01 / 持续改进</div><h2>迭代留下的足迹</h2><p>颜色越深，当天登记的变更记录越多。</p></div></div>
+        <div class="heat-card"><div class="heat-top"><div><strong>2026 年 Skill 变更热力图</strong><small id="heatSub">正在汇总登记记录…</small></div><div class="heat-total"><span id="eventTotal">—</span><small style="font-size:10px;color:var(--muted);font-weight:500">条记录</small></div></div><div class="heat-scroll"><div id="heatMonths" class="heat-months"></div><div id="heatGrid" class="heat-grid" role="group" aria-label="2026 年 Skill 变更记录热力图"></div></div><div class="heat-legend"><span>少</span><i></i><i></i><i></i><i></i><i></i><span>多</span></div><div class="heat-caption" id="heatCaption"></div></div>
+        <div class="recent" id="recent"></div>
       </section>
 
       <section class="section" id="workflow">
-        <div class="section-head"><div><div class="eyebrow">02 / 工作流</div><h2>从想法到复盘</h2><p>点流程节点里的 Skill，可直接定位第三部分的清单。</p></div></div>
+        <div class="section-head"><div><div class="eyebrow">02 / 工作流</div><h2>从想法到复盘</h2><p>点流程节点里的 Skill，可直接定位第三部分的能力盘点。</p></div></div>
         <div class="flow-wrap"><div class="flow">
           <article class="stage"><span class="stage-n">01</span><h3>接手项目</h3><button data-skill="project-steward-local-zh">项目管家</button><button data-skill="agent-central-mapping-local-zh">规则接入</button></article>
           <article class="stage"><span class="stage-n">02</span><h3>梳理需求</h3><button data-skill="grill-me-trans-zh">方案追问</button><button data-skill="github-readme-maintainer-local-zh">项目说明</button><div class="gap">可补：通用需求规划</div></article>
@@ -57,16 +50,19 @@
         <p class="flow-note"><b>空缺提示：</b>这是按当前登记目录做的初版地图。“可补”表示清单中没有通用专用 Skill，后续可以通过筛选和复盘验证实际缺口。</p>
       </section>
 
-      <section class="section" id="inventory">
-        <div class="section-head"><div><div class="eyebrow">03 / Skill 清单</div><h2>逐项查看与搜索</h2><p>清单会沿用第一部分选定的来源和能力领域筛选条件。</p></div></div>
+      <section class="section" id="skills">
+        <div class="section-head"><div><div class="eyebrow">03 / 能力盘点</div><h2>我的能力分布</h2><p>按 Skill 的主要用途归类；译本单独列为登记条目，来源关系会明确标出。</p></div></div>
+        <div class="stats" aria-label="Skill 来源统计">
+          <div class="stat"><small>登记 Skill</small><strong id="total">—</strong><div class="hint">按登记条目统计</div></div>
+          <div class="stat"><small>自建</small><strong id="selfCount">—</strong><div class="hint">原创或实操沉淀</div></div>
+          <div class="stat"><small>官方上游</small><strong id="officialCount">—</strong><div class="hint">来自产品或项目官方仓库</div></div>
+          <div class="stat"><small>社区 / 待核验</small><strong id="otherCount">—</strong><div class="hint">外部社区来源或来源待确认</div></div>
+        </div>
+        <div class="source-filters" id="sourceFilters" aria-label="按来源筛选"><span class="filter-label">来源：</span></div>
+        <div class="domains" id="domainFilters" aria-label="按能力领域筛选"></div>
+
         <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索 Skill 名称或用途" aria-label="搜索 Skill 名称或用途"></label><div class="result-count" id="resultCount"></div></div>
         <div class="table-shell"><table><thead><tr><th scope="col">#</th><th scope="col">Skill</th><th scope="col">能力领域</th><th scope="col">来源</th><th scope="col">它能帮我做什么</th></tr></thead><tbody id="skillRows"><tr><td class="loading" colspan="5">正在读取技能清单…</td></tr></tbody></table></div>
-      </section>
-
-      <section class="section" id="iteration">
-        <div class="section-head"><div><div class="eyebrow">04 / 持续改进</div><h2>迭代留下的足迹</h2><p>颜色越深，当天登记的变更记录越多。</p></div></div>
-        <div class="heat-card"><div class="heat-top"><div><strong>2026 年 Skill 变更热力图</strong><small id="heatSub">正在汇总登记记录…</small></div><div class="heat-total"><span id="eventTotal">—</span><small style="font-size:10px;color:var(--muted);font-weight:500">条记录</small></div></div><div class="heat-scroll"><div id="heatMonths" class="heat-months"></div><div id="heatGrid" class="heat-grid" role="group" aria-label="2026 年 Skill 变更记录热力图"></div></div><div class="heat-legend"><span>少</span><i></i><i></i><i></i><i></i><i></i><span>多</span></div><div class="heat-caption" id="heatCaption"></div></div>
-        <div class="recent" id="recent"></div>
       </section>
     </main>
     <footer class="foot"><span>数据快照：<span id="snapshot">2026-10-06</span> · 来源：中央 Skill 登记档案</span><span><a href="https://github.com/wanghoufan/alw-002-skill-system-map">GitHub 仓库</a> · 页面按登记信息手动更新</span></footer>
@@ -84,7 +80,7 @@
     document.getElementById('total').textContent=allSkills.length;document.getElementById('selfCount').textContent=byKind.self||0;document.getElementById('officialCount').textContent=byKind.official||0;document.getElementById('otherCount').textContent=byKind.other||0;
     renderSourceFilters();renderDomains();renderSkills();renderHeat(activity);
     document.getElementById('search').addEventListener('input',renderSkills);
-    document.querySelectorAll('[data-skill]').forEach(b=>b.addEventListener('click',()=>{activeDomain='全部';activeKind='全部';document.getElementById('search').value=b.dataset.skill;renderSourceFilters();renderDomains();renderSkills();document.getElementById('inventory').scrollIntoView({behavior:'smooth'})}));
+    document.querySelectorAll('[data-skill]').forEach(b=>b.addEventListener('click',()=>{activeDomain='全部';activeKind='全部';document.getElementById('search').value=b.dataset.skill;renderSourceFilters();renderDomains();renderSkills();document.getElementById('skills').scrollIntoView({behavior:'smooth'})}));
   }
   function renderSourceFilters(){
     const kinds=['全部','self','official','other'];
