@@ -1,7 +1,7 @@
-# Skill管理仓库（ALW-002）
+# skill 体系地图（ALW-002）
 
-常驻管理 Skill 资产：备份、生成与优化进展记录及总量统计。
+面向展示的 Skill 体系地图，用于呈现 Skill 资产、备份方式与生成和优化进展。
 
-- 本地目录：`alw-002-Skill管理仓库`
-- GitHub：`wanghoufan/alw-002-skill-management`（public）
+- 本地目录：`alw-002-skill 体系地图`
+- GitHub：`wanghoufan/alw-002-skill-system-map`（public）
 - 状态：常驻

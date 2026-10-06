@@ -1,12 +1,12 @@
 # 项目机器身份 — 由 Project Steward 生成，请勿删除
 project_id: ALW-002
-name_zh: Skill管理仓库
-slug: skill-management
+name_zh: skill 体系地图
+slug: skill-system-map
 status: active
-github: wanghoufan/alw-002-skill-management
+github: wanghoufan/alw-002-skill-system-map
 visibility: public
 created_at: 2026-10-06T13:58:26+08:00
-local_path: /Users/zzymima0000/Developer/coding/1.Active/alw-002-Skill管理仓库
+local_path: /Users/zzymima0000/Developer/coding/1.Active/alw-002-skill 体系地图
 default_branch: main
 repo_role: primary
 lifecycle: active, paused, archived
