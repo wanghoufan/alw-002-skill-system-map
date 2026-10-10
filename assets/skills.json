@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-10",
   "skills": [
     {
       "id": 1,
@@ -826,6 +826,204 @@
       "updated": "—",
       "summary": "提供周/月复盘的结构、细节标准和踩坑核对，和滴答清单管理 Skill 配套使用。",
       "catalog": "个人技能库"
+    },
+    {
+      "id": 76,
+      "name": "github-homepage-showcase-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "2.2.0",
+      "updated": "2026-10-10",
+      "summary": "单项目收尾时对齐 GitHub 仓库、主页作品清单和个人网站作品区；新增站点作品必须追加到内容数组末尾，并回读页面标题确认最新作品确实排在末尾。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 77,
+      "name": "skill-map-maintainer-local-zh",
+      "domain": "AI Agent 与 Skill 治理",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.1.0",
+      "updated": "2026-10-10",
+      "summary": "核对中央登记与 Skill Manager，维护公开地图和私有体检版；本用户的公开地图变更默认完成提交、推送、部署和线上核验，且不公开内部体检材料。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 78,
+      "name": "gpt-quota-fuse-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.1",
+      "updated": "2026-10-07",
+      "summary": "为 Codex 5 小时 session 额度设置低额度保护：仅匹配指定事件后尝试停止当前任务并提醒；配置写入保留现有设置与权限，不自动启用全局 Hook。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 79,
+      "name": "design-reference-research",
+      "domain": "UI 与视觉设计",
+      "source": "来源待确认 · 用户提供 ORCA Design Pipeline V1.6 ZIP",
+      "kind": "other",
+      "version": "V1.6（SKILL.md 未声明独立版本）",
+      "updated": "2026-10-07",
+      "summary": "基于已发布产品或可直接观察的产品案例开展设计参考研究，并区分观察证据与推断。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 80,
+      "name": "visual-direction-exploration",
+      "domain": "UI 与视觉设计",
+      "source": "来源待确认 · 用户提供 ORCA Design Pipeline V1.6 ZIP",
+      "kind": "other",
+      "version": "V1.6（SKILL.md 未声明独立版本）",
+      "updated": "2026-10-07",
+      "summary": "基于已核验的设计研究，提出并比较三种有实质差异的视觉与产品方向。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 81,
+      "name": "ux-interaction-contract",
+      "domain": "软件开发与项目协作",
+      "source": "来源待确认 · 用户提供 ORCA Design Pipeline V1.6 ZIP",
+      "kind": "other",
+      "version": "V1.6（SKILL.md 未声明独立版本）",
+      "updated": "2026-10-07",
+      "summary": "把选定设计方向与产品需求整理为核心流程、界面、交互、状态和恢复行为契约。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 82,
+      "name": "interactive-product-prototype",
+      "domain": "软件开发与项目协作",
+      "source": "来源待确认 · 用户提供 ORCA Design Pipeline V1.6 ZIP",
+      "kind": "other",
+      "version": "V1.6（SKILL.md 未声明独立版本）",
+      "updated": "2026-10-07",
+      "summary": "把正式选定的方向与 UX 契约转成可点击的产品原型，供设计冻结前评审。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 83,
+      "name": "design-freeze",
+      "domain": "软件开发与项目协作",
+      "source": "来源待确认 · 用户提供 ORCA Design Pipeline V1.6 ZIP",
+      "kind": "other",
+      "version": "V1.6（SKILL.md 未声明独立版本）",
+      "updated": "2026-10-07",
+      "summary": "将已批准的原型固化为稳定设计契约，供 SDD、实现审查和产品 QA 使用。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 84,
+      "name": "requirements-traceability",
+      "domain": "项目管理与智能体协作",
+      "source": "来源待确认 · 用户提供 ORCA Design Pipeline V1.6 ZIP",
+      "kind": "other",
+      "version": "V1.6（SKILL.md 未声明独立版本）",
+      "updated": "2026-10-07",
+      "summary": "持续关联产品需求、UX、SDD 任务、测试与证据，并保留需求变更历史。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 85,
+      "name": "orca-design-pipeline",
+      "domain": "项目管理与智能体协作",
+      "source": "来源待确认 · 用户提供 ORCA Design Pipeline V1.6 ZIP",
+      "kind": "other",
+      "version": "V1.6（SKILL.md 未声明独立版本）",
+      "updated": "2026-10-07",
+      "summary": "为正式多页面产品编排 ORCA 研究、设计、原型审批、设计冻结、SDD 交接、实现和产品 QA。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 86,
+      "name": "design-reference-research-trans-zh",
+      "domain": "UI 与视觉设计",
+      "source": "来源待确认 · ORCA Design Pipeline V1.6 中文阅读版",
+      "kind": "other",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-08",
+      "summary": "以可追溯的真实产品证据开展设计参考研究；对应英文原版的中文阅读版，仅供中文阅读，不作为智能体执行版",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 87,
+      "name": "visual-direction-exploration-trans-zh",
+      "domain": "UI 与视觉设计",
+      "source": "来源待确认 · ORCA Design Pipeline V1.6 中文阅读版",
+      "kind": "other",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-08",
+      "summary": "依据已核实的设计研究提出三个实质不同的产品视觉方向；仅供中文阅读，不作为智能体执行版",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 88,
+      "name": "ux-interaction-contract-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "来源待确认 · ORCA Design Pipeline V1.6 中文阅读版",
+      "kind": "other",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-08",
+      "summary": "把选定方向和需求整理为核心流程、界面、交互、状态与恢复行为契约；仅供中文阅读，不作为智能体执行版",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 89,
+      "name": "interactive-product-prototype-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "来源待确认 · ORCA Design Pipeline V1.6 中文阅读版",
+      "kind": "other",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-08",
+      "summary": "根据选定方向与 UX 契约制作可交互产品原型并在冻结前评审；仅供中文阅读，不作为智能体执行版",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 90,
+      "name": "design-freeze-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "来源待确认 · ORCA Design Pipeline V1.6 中文阅读版",
+      "kind": "other",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-08",
+      "summary": "将获批原型固化为稳定设计契约，供 SDD、实现审查和 QA 使用；仅供中文阅读，不作为智能体执行版",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 91,
+      "name": "requirements-traceability-trans-zh",
+      "domain": "项目管理与智能体协作",
+      "source": "来源待确认 · ORCA Design Pipeline V1.6 中文阅读版",
+      "kind": "other",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-08",
+      "summary": "关联产品需求、UX、SDD 任务、测试与证据，并保留需求变化历史；仅供中文阅读，不作为智能体执行版",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 92,
+      "name": "orca-design-pipeline-trans-zh",
+      "domain": "项目管理与智能体协作",
+      "source": "来源待确认 · ORCA Design Pipeline V1.6 中文阅读版",
+      "kind": "other",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-08",
+      "summary": "编排 ORCA 研究、设计、原型审批、冻结、SDD 交接、实现与 QA 流程；仅供中文阅读，不作为智能体执行版",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 93,
+      "name": "showcase-tea-submission-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.3.0",
+      "updated": "2026-10-10",
+      "summary": "作品完成后向训练营茶话会投稿：核实作品事实、整理文稿与素材、生成轻量截图、定位讨论项，并在用户定稿后提交和回读核验。",
+      "catalog": "中央仓库"
     }
   ]
 }
