@@ -1123,6 +1123,105 @@
       "updated": "2026-10-12",
       "summary": "根据可用设计产物生成可执行、按依赖排序的 tasks.md",
       "catalog": "中央仓库"
+    },
+    {
+      "id": 103,
+      "name": "speckit-analyze-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "Spec Kit 项目跨规格、计划与任务文件的一致性分析中文阅读版。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 104,
+      "name": "speckit-checklist-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "根据当前功能需求生成自定义检查清单的中文阅读版。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 105,
+      "name": "speckit-clarify-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "识别规格中的未明确项并提出澄清问题的中文阅读版。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 106,
+      "name": "speckit-constitution-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "创建或更新项目宪章的中文阅读版。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 107,
+      "name": "speckit-converge-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "对照规格、计划、任务与代码补齐未完成工作的中文阅读版。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 108,
+      "name": "speckit-implement-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "按 tasks.md 执行实现计划的中文阅读版。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 109,
+      "name": "speckit-plan-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "根据规格和计划模板生成设计产物的中文阅读版。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 110,
+      "name": "speckit-specify-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "根据自然语言需求生成或更新功能规格的中文阅读版。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 111,
+      "name": "speckit-tasks-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit · 中文译本",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-12",
+      "summary": "生成可执行且依赖排序任务清单的中文阅读版。",
+      "catalog": "中央仓库"
     }
   ]
 }
