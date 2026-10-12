@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-10-10",
+  "asOf": "2026-10-12",
   "skills": [
     {
       "id": 1,
@@ -1023,6 +1023,105 @@
       "version": "1.3.0",
       "updated": "2026-10-10",
       "summary": "作品完成后向训练营茶话会投稿：核实作品事实、整理文稿与素材、生成轻量截图、定位讨论项，并在用户定稿后提交和回读核验。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 94,
+      "name": "speckit-analyze",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "检查功能规格、实施计划与任务之间的一致性和质量；需先初始化 Spec Kit 项目",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 95,
+      "name": "speckit-checklist",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "根据当前功能需求生成定制检查清单；需先初始化 Spec Kit 项目",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 96,
+      "name": "speckit-clarify",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "找出功能规格中的不明确点，提出最多五个针对性问题并回写答案",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 97,
+      "name": "speckit-constitution",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "依据团队提供或讨论出的原则创建、更新项目 Constitution",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 98,
+      "name": "speckit-converge",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "对照规格、计划和任务检查代码库，把尚未实现的工作补充到任务列表",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 99,
+      "name": "speckit-implement",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "按 tasks.md 中的任务执行功能实现；需先初始化 Spec Kit 项目",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 100,
+      "name": "speckit-plan",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "基于计划模板执行实施规划，并生成设计产物",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 101,
+      "name": "speckit-specify",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "从自然语言功能描述创建或更新功能规格；需先初始化 Spec Kit 项目",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 102,
+      "name": "speckit-tasks",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · GitHub Spec Kit",
+      "kind": "official",
+      "version": "v1.1.3",
+      "updated": "2026-10-12",
+      "summary": "根据可用设计产物生成可执行、按依赖排序的 tasks.md",
       "catalog": "中央仓库"
     }
   ]
