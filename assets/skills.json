@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-15",
   "skills": [
     {
       "id": 1,
@@ -1222,6 +1222,28 @@
       "updated": "2026-10-12",
       "summary": "生成可执行且依赖排序任务清单的中文阅读版。",
       "catalog": "中央仓库"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · Vercel Labs",
+      "kind": "official",
+      "version": "1.0.0",
+      "updated": "2026-10-14",
+      "summary": "为 React Native / Expo 开发提供列表性能、动画、导航、界面、状态、渲染、Monorepo 与原生配置规则及代码示例",
+      "catalog": "中央仓库",
+      "id": 112
+    },
+    {
+      "name": "vercel-react-native-skills-trans-zh",
+      "domain": "软件开发与项目协作",
+      "source": "官方上游 · Vercel Labs · 中文阅读版",
+      "kind": "official",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-15",
+      "summary": "36 条 React Native / Expo 工程规则的中文阅读译本，逐条附代码示例；用于理解英文原版，不作为智能体执行版",
+      "catalog": "中央仓库",
+      "id": 113
     }
   ]
 }
