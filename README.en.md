@@ -24,7 +24,7 @@ Domains include life management, travel, requirements, project collaboration, UI
 
 ## Public data snapshot
 
-The public page reflects a data snapshot from **2026-10-15**, with 113 registered Skills. Translations and their English originals are listed separately. Community contributions and entries with unverified sources are labeled “Community / Unverified.”
+The public page reflects a data snapshot from **2026-10-17**, with 113 registered Skills. Translations and their English originals are listed separately. Community contributions and entries with unverified sources are labeled “Community / Unverified.”
 
 | Source | Count | Description |
 | --- | ---: | --- |
