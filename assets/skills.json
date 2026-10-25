@@ -162,9 +162,9 @@
       "domain": "软件开发与项目协作",
       "source": "自建",
       "kind": "self",
-      "version": "1.8.0",
-      "updated": "2026-10-06",
-      "summary": "编写、审查和维护 GitHub README、配套项目文档，以及仓库 About 简介；Website 优先已验证的 GitHub Pages，其次 Vercel；Android APK 发布附已签名安装包和中英文 Release",
+      "version": "1.9.0",
+      "updated": "2026-10-25",
+      "summary": "维护 GitHub README、配套文档与 About；保护私有仓库链接，并按分发矩阵处理 Release、落地页和 APK 小版本更新。",
       "catalog": "中央仓库"
     },
     {
@@ -602,9 +602,9 @@
       "domain": "部署与运维",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "1.0.0",
-      "updated": "—",
-      "summary": "把已构建的 Android APK 上传到蒲公英内测分发，跟踪构建状态并生成下载二维码。",
+      "version": "1.1.0",
+      "updated": "2026-10-06",
+      "summary": "把本机已构建的 Android APK 上传蒲公英内测分发，跟踪构建状态并生成下载二维码。",
       "catalog": "中央仓库"
     },
     {
@@ -833,9 +833,9 @@
       "domain": "软件开发与项目协作",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "2.2.0",
-      "updated": "2026-10-10",
-      "summary": "单项目收尾时对齐 GitHub 仓库、主页作品清单和个人网站作品区；新增站点作品必须追加到内容数组末尾，并回读页面标题确认最新作品确实排在末尾。",
+      "version": "3.0.0",
+      "updated": "2026-10-25",
+      "summary": "单项目收尾发布总入口：同步 GitHub 仓库、落地页、软件分发、个人主页和网站；按公开/私有链接矩阵处理，并对小版本设置重新打包确认闸。",
       "catalog": "中央仓库"
     },
     {
