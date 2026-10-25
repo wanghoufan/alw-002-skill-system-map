@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-10-17",
+  "asOf": "2026-10-26",
   "skills": [
     {
       "id": 1,
@@ -1244,6 +1244,17 @@
       "summary": "36 条 React Native / Expo 工程规则的中文阅读译本，逐条附代码示例；用于理解英文原版，不作为智能体执行版",
       "catalog": "中央仓库",
       "id": 113
+    },
+    {
+      "name": "macos-menubar-metric-widget-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-26",
+      "summary": "把本机服务的关键指标放到 macOS 菜单栏，支持定时刷新、口径切换、超阈值提示，并附可复用的构建与验收模板。",
+      "catalog": "中央仓库",
+      "id": 114
     }
   ]
 }
