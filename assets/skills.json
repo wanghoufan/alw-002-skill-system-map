@@ -1255,6 +1255,17 @@
       "summary": "把本机服务的关键指标放到 macOS 菜单栏，支持定时刷新、口径切换、超阈值提示，并附可复用的构建与验收模板。",
       "catalog": "中央仓库",
       "id": 114
+    },
+    {
+      "name": "capacitor-android-live-reload-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-26",
+      "summary": "给 Capacitor 安卓 App 配置 live reload 实时预览：闸门式开启、双端口 adb reverse、接口同源代理、恢复正式包并清理 dist 污染。",
+      "catalog": "中央仓库",
+      "id": 115
     }
   ]
 }
