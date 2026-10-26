@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "skills": [
     {
       "id": 1,
@@ -602,9 +602,9 @@
       "domain": "部署与运维",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "1.1.0",
-      "updated": "2026-10-06",
-      "summary": "把本机已构建的 Android APK 上传蒲公英内测分发，跟踪构建状态并生成下载二维码。",
+      "version": "1.2.0",
+      "updated": "2026-10-26",
+      "summary": "把本机已构建的 Android APK 上传蒲公英内测分发：从钥匙串或环境变量读 API Key，上传前预检启动图标（只有 adaptive icon XML、零 mipmap PNG 时默认拦下），默认公开安装，轮询构建状态，并把二维码按「日期-软件名-版本号」存到项目根目录。",
       "catalog": "中央仓库"
     },
     {
@@ -1261,11 +1261,99 @@
       "domain": "软件开发与项目协作",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "updated": "2026-10-26",
-      "summary": "给 Capacitor 安卓 App 配置 live reload 实时预览：闸门式开启、双端口 adb reverse、接口同源代理、恢复正式包并清理 dist 污染。",
+      "summary": "给 Capacitor 安卓 App 配置实时预览：路线 A 装包热更新（闸门式开启、双端口 adb reverse、接口同源代理、恢复正式包并清理 dist 污染）；路线 B 手机浏览器局域网预览，0 部署额度。",
       "catalog": "中央仓库",
       "id": 115
+    },
+    {
+      "name": "answer-me-with-html",
+      "domain": "内容创作与表达",
+      "source": "社区上游",
+      "kind": "other",
+      "version": "0.5.8",
+      "updated": "2026-10-26",
+      "summary": "把一个复杂回答整理成一页单文件 HTML 图解，便于阅读和分享；上游 QingYunA 英文执行版，MIT 许可。",
+      "catalog": "中央仓库",
+      "id": 116
+    },
+    {
+      "name": "answer-me-with-html-trans-zh",
+      "domain": "内容创作与表达",
+      "source": "社区上游 · 中文译本",
+      "kind": "other",
+      "version": "1.0.0-zh.1",
+      "updated": "2026-10-26",
+      "summary": "answer-me-with-html 的中文阅读版：用一页单文件 HTML 图解复杂回答；仅供阅读，不作为智能体执行版。",
+      "catalog": "中央仓库",
+      "id": 117
+    },
+    {
+      "name": "stage-retro-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.1",
+      "updated": "2026-10-26",
+      "summary": "阶段复盘：把一轮开发的一次性劳动转成可复用资产——分层更新踩坑表、规则上收、按固定格式产出自动化候选、优化用户口令。",
+      "catalog": "中央仓库",
+      "id": 118
+    },
+    {
+      "name": "trae-project-cleanup-local-zh",
+      "domain": "数字设备与空间管理",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-26",
+      "summary": "批量移除 Trae 客户端里不再使用的项目分组，逐组删除并每轮重读界面结构，磁盘项目文件不受影响。",
+      "catalog": "中央仓库",
+      "id": 119
+    },
+    {
+      "name": "github-profile-homepage-from-zero-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.1.0",
+      "updated": "2026-10-25",
+      "summary": "从零给空白 GitHub 账号建个人主页：讲清主页机制、按三条标准筛作品、生成中英双语 README 并匿名回读核验。",
+      "catalog": "中央仓库",
+      "id": 120
+    },
+    {
+      "name": "orca-new-project-local-zh",
+      "domain": "项目管理与智能体协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.2.0",
+      "updated": "2026-10-22",
+      "summary": "按项目编号用一条命令给新项目初始化 ORCA 治理体系（铺包、清理账本、软链分工表、注入忽略块、自检）。",
+      "catalog": "中央仓库",
+      "id": 121
+    },
+    {
+      "name": "wechat-to-xiaohongshu-local-zh",
+      "domain": "内容创作与表达",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-17",
+      "summary": "把公众号长文转成小红书 3:5 图文笔记：引擎与数据分离，五步生成成品图与自包含 HTML。",
+      "catalog": "中央仓库",
+      "id": 122
+    },
+    {
+      "name": "tencent-web-hosting-local-zh",
+      "domain": "部署与运维",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-25",
+      "summary": "把本地 Web 应用发布成中国大陆可直连、免备案的永久链接，含平台选型实测、启动入口配置与验证清单。",
+      "catalog": "中央仓库",
+      "id": 123
     }
   ]
 }
