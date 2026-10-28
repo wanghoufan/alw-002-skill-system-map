@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-28",
   "skills": [
     {
       "id": 1,
@@ -1354,6 +1354,28 @@
       "summary": "把本地 Web 应用发布成中国大陆可直连、免备案的永久链接，含平台选型实测、启动入口配置与验证清单。",
       "catalog": "中央仓库",
       "id": 123
+    },
+    {
+      "name": "codebuddy-account-429-check-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-27",
+      "summary": "逐账号检查 CodeBuddy 指定模型是否被 429 限流：读本机 wb-switch 账号文件取 token，直连 copilot.tencent.com 打一次最小流式请求，按 HTTP 状态判可用 / 限流 / 凭据失效，输出状态表与最早恢复时间。",
+      "catalog": "中央仓库",
+      "id": 124
+    },
+    {
+      "name": "course-prompt-distiller-local-zh",
+      "domain": "学习与知识管理",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-10-27",
+      "summary": "把课程全文稿蒸馏成「课程原版＋通用版」可复用提示词库：只保留能整段直接发给 AI 执行的条目，原版逐字保留可回源，通用版最小通用化并做交付前质量自查。",
+      "catalog": "中央仓库",
+      "id": 125
     }
   ]
 }
