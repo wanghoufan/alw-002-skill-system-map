@@ -470,9 +470,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.0.3",
-      "updated": "2026-09-24",
-      "summary": "在 Mac 端中央仓库创建、验证和登记 Skill，完成后询问是否复制到当前项目",
+      "version": "1.1.0",
+      "updated": "2026-10-29",
+      "summary": "在 Mac 端中央仓库创建、验证和登记 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；完成后询问是否复制到当前项目",
       "catalog": "中央仓库"
     },
     {
@@ -481,9 +481,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.0.3",
-      "updated": "2026-09-24",
-      "summary": "在 Windows 11 中央仓库创建、验证和登记 Skill，完成后询问是否复制到当前项目",
+      "version": "1.1.0",
+      "updated": "2026-10-29",
+      "summary": "在 Windows 11 中央仓库创建、验证和登记 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；完成后询问是否复制到当前项目",
       "catalog": "中央仓库"
     },
     {
@@ -492,9 +492,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.0.3",
-      "updated": "2026-09-24",
-      "summary": "在 Mac 当前项目根目录创建或优化项目级 Skill，验收后询问是否复制到 Mac 中央仓库",
+      "version": "1.1.0",
+      "updated": "2026-10-29",
+      "summary": "在 Mac 当前项目根目录创建或优化项目级 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；验收后询问是否复制到 Mac 中央仓库",
       "catalog": "中央仓库"
     },
     {
@@ -503,9 +503,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.0.3",
-      "updated": "2026-09-24",
-      "summary": "在 Windows 11 当前项目根目录创建或优化项目级 Skill，验收后询问是否复制到 PC 中央仓库",
+      "version": "1.1.0",
+      "updated": "2026-10-29",
+      "summary": "在 Windows 11 当前项目根目录创建或优化项目级 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；验收后询问是否复制到 PC 中央仓库",
       "catalog": "中央仓库"
     },
     {
@@ -1294,9 +1294,9 @@
       "domain": "软件开发与项目协作",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "updated": "2026-10-29",
-      "summary": "阶段复盘：把一轮开发的一次性劳动转成可复用资产——分层更新踩坑表、规则上收、按固定格式产出自动化候选、给出 skill 沉淀建议（先出概览表+建议级别+带证据理由，用户确认后按 Mac 规范真源建档：命名、结构、可迁移、语义化版本、validate_skill.py、中央登记字段、项目级晋升确认门）、优化用户口令。",
+      "summary": "阶段复盘：把一轮开发的一次性劳动转成可复用资产——分层更新踩坑表、规则上收、按固定格式产出自动化候选、给出 skill 沉淀建议（先出概览表+建议级别+带证据理由，用户确认后按 Mac 规范真源建档：命名、结构、可迁移、语义化版本、validate_skill.py、中央登记字段、项目级晋升确认门）、优化用户口令；新建/更新 Skill 时「触发词先行」列为 13 条必守条款第 1 条，先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕），写入 `## 触发词` 与 frontmatter description 并登记中央清单。",
       "catalog": "中央仓库",
       "id": 118
     },
