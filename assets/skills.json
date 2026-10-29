@@ -184,9 +184,9 @@
       "domain": "软件开发与项目协作",
       "source": "自建",
       "kind": "self",
-      "version": "1.2.0",
-      "updated": "2026-10-05",
-      "summary": "Next.js 部署 GitHub Pages 项目页的避坑手册：双线上线（Vercel + Pages）总则、静态导出改造、API 路由构建期排除、业务逻辑同构化与前端兜底、'use client' 页面拆壳、basePath ",
+      "version": "1.2.1",
+      "updated": "2026-10-29",
+      "summary": "Next.js 部署 GitHub Pages 项目页的避坑手册：双线上线（Vercel + Pages）总则、静态导出改造、API 路由构建期排除、业务逻辑同构化与前端兜底、'use client' 页面拆壳、basePath。description 压缩至 200 字符内，降低每轮上下文注入成本。",
       "catalog": "中央仓库"
     },
     {
@@ -393,9 +393,9 @@
       "domain": "内容创作与表达",
       "source": "自建",
       "kind": "self",
-      "version": "1.0.1",
-      "updated": "2026-09-24",
-      "summary": "把已完成的 AI 编程项目写成能交的作业材料：核实项目事实、控制长度、输出富文本（图片置末）",
+      "version": "1.1.1",
+      "updated": "2026-10-29",
+      "summary": "把已完成的 AI 编程项目写成能交的作业材料：核实项目事实、控制长度、输出富文本（图片置末）。description 压缩至 200 字符内，降低每轮上下文注入成本。",
       "catalog": "中央仓库"
     },
     {
@@ -470,9 +470,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "updated": "2026-10-29",
-      "summary": "在 Mac 端中央仓库创建、验证和登记 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；完成后询问是否复制到当前项目。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀中央技能」。",
+      "summary": "在 Mac 端中央仓库创建、验证和登记 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；完成后询问是否复制到当前项目。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀中央技能」。description 压缩至 200 字符内，降低每轮上下文注入成本。触发词规则改为 description 只留 1–2 个核心词。",
       "catalog": "中央仓库"
     },
     {
@@ -481,9 +481,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "updated": "2026-10-29",
-      "summary": "在 Windows 11 中央仓库创建、验证和登记 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；完成后询问是否复制到当前项目。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀中央技能」。",
+      "summary": "在 Windows 11 中央仓库创建、验证和登记 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；完成后询问是否复制到当前项目。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀中央技能」。description 压缩至 200 字符内，降低每轮上下文注入成本。触发词规则改为 description 只留 1–2 个核心词。",
       "catalog": "中央仓库"
     },
     {
@@ -492,9 +492,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "updated": "2026-10-29",
-      "summary": "在 Mac 当前项目根目录创建或优化项目级 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；验收后询问是否复制到 Mac 中央仓库。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀项目技能」。",
+      "summary": "在 Mac 当前项目根目录创建或优化项目级 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；验收后询问是否复制到 Mac 中央仓库。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀项目技能」。description 压缩至 200 字符内，降低每轮上下文注入成本。触发词规则改为 description 只留 1–2 个核心词。",
       "catalog": "中央仓库"
     },
     {
@@ -503,9 +503,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "updated": "2026-10-29",
-      "summary": "在 Windows 11 当前项目根目录创建或优化项目级 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；验收后询问是否复制到 PC 中央仓库。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀项目技能」。",
+      "summary": "在 Windows 11 当前项目根目录创建或优化项目级 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；验收后询问是否复制到 PC 中央仓库。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀项目技能」。description 压缩至 200 字符内，降低每轮上下文注入成本。触发词规则改为 description 只留 1–2 个核心词。",
       "catalog": "中央仓库"
     },
     {
@@ -514,9 +514,9 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.5.0",
-      "updated": "2026-09-28",
-      "summary": "Skill 管理入口与日报复核；按项目文件夹编号定位项目，记录开发困扰、检查相关项目/Git/GitHub 证据并评估现有或外部 Skill；已安装 Skill 的安全兼容更新按授权自动维护，新安装等操作仍需用户确认",
+      "version": "2.0.1",
+      "updated": "2026-10-29",
+      "summary": "Skill 管理入口与日报复核；按项目文件夹编号定位项目，记录开发困扰、检查相关项目/Git/GitHub 证据并评估现有或外部 Skill；已安装 Skill 的安全兼容更新按授权自动维护，新安装等操作仍需用户确认。description 压缩至 200 字符内，降低每轮上下文注入成本。触发词规则改为 description 只留 1–2 个核心词。",
       "catalog": "中央仓库"
     },
     {
@@ -833,9 +833,9 @@
       "domain": "软件开发与项目协作",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "3.0.0",
-      "updated": "2026-10-25",
-      "summary": "单项目收尾发布总入口：同步 GitHub 仓库、落地页、软件分发、个人主页和网站；按公开/私有链接矩阵处理，并对小版本设置重新打包确认闸。",
+      "version": "3.0.1",
+      "updated": "2026-10-29",
+      "summary": "单项目收尾发布总入口：同步 GitHub 仓库、落地页、软件分发、个人主页和网站；按公开/私有链接矩阵处理，并对小版本设置重新打包确认闸。description 压缩至 200 字符内，降低每轮上下文注入成本。",
       "catalog": "中央仓库"
     },
     {
@@ -1020,9 +1020,9 @@
       "domain": "软件开发与项目协作",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "1.3.0",
-      "updated": "2026-10-10",
-      "summary": "作品完成后向训练营茶话会投稿：核实作品事实、整理文稿与素材、生成轻量截图、定位讨论项，并在用户定稿后提交和回读核验。",
+      "version": "1.3.1",
+      "updated": "2026-10-29",
+      "summary": "作品完成后向训练营茶话会投稿：核实作品事实、整理文稿与素材、生成轻量截图、定位讨论项，并在用户定稿后提交和回读核验。description 压缩至 200 字符内，降低每轮上下文注入成本。",
       "catalog": "中央仓库"
     },
     {
@@ -1261,9 +1261,9 @@
       "domain": "软件开发与项目协作",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "1.1.0",
-      "updated": "2026-10-26",
-      "summary": "给 Capacitor 安卓 App 配置实时预览：路线 A 装包热更新（闸门式开启、双端口 adb reverse、接口同源代理、恢复正式包并清理 dist 污染）；路线 B 手机浏览器局域网预览，0 部署额度。",
+      "version": "1.1.1",
+      "updated": "2026-10-29",
+      "summary": "给 Capacitor 安卓 App 配置实时预览：路线 A 装包热更新（闸门式开启、双端口 adb reverse、接口同源代理、恢复正式包并清理 dist 污染）；路线 B 手机浏览器局域网预览，0 部署额度。description 压缩至 200 字符内，降低每轮上下文注入成本。",
       "catalog": "中央仓库",
       "id": 115
     },
