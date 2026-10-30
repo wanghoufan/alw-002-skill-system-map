@@ -1,6 +1,6 @@
 {
  "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
- "asOf": "2026-10-29",
+ "asOf": "2026-10-30",
  "skills": [
   {
    "id": 1,
@@ -583,6 +583,17 @@
    "version": "1.0.0",
    "updated": "2026-10-29",
    "summary": "中文 ASR 文本比对七条判据：繁简归一、逐处差异可解释、否定/数字/反义语义闸与覆盖率分档",
+   "catalog": "中央仓库"
+  },
+  {
+   "id": 54,
+   "name": "secret-scanning",
+   "domain": "测试与质量保障",
+   "source": "官方上游 · GitHub",
+   "kind": "official",
+   "version": "上游未声明（commit 7e326fe）",
+   "updated": "2026-10-30",
+   "summary": "指导配置 GitHub 密钥扫描、推送保护、自定义检测模式和告警修复；不含扫描器或插件",
    "catalog": "中央仓库"
   }
  ]
