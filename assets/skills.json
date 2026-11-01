@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-02",
   "skills": [
     {
       "id": 1,
@@ -151,8 +151,8 @@
       "domain": "测试与质量保障",
       "source": "自建",
       "kind": "self",
-      "version": "2.2.0",
-      "updated": "2026-10-22",
+      "version": "2.3.0",
+      "updated": "2026-11-01",
       "summary": "按智能体身份独立绑定 Android 手机，防止并行串台；完成操作后可显式释放设备并安全交接给另一智能体",
       "catalog": "中央仓库"
     },
@@ -239,8 +239,8 @@
       "domain": "学习与知识管理",
       "source": "自建",
       "kind": "self",
-      "version": "1.2.0",
-      "updated": "2026-10-11",
+      "version": "1.2.2",
+      "updated": "2026-10-27",
       "summary": "把课程内容整理成便于复习的知识卡片和长图。",
       "catalog": "中央仓库"
     },
@@ -316,8 +316,8 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "2.1.0",
-      "updated": "2026-10-30",
+      "version": "2.1.1",
+      "updated": "2026-10-31",
       "summary": "Skill 管理入口与日报复核；按项目文件夹编号定位项目，记录开发困扰、检查相关项目/Git/GitHub 证据并评估现有或外部 Skill；已安装 Skill 的安全兼容更新按授权自动维护，新安装等操作仍需用户确认。description 压缩至 200 字符内，降低每轮上下文注入成本。触发词规则改为 description 只留 1–2 个核心词。",
       "catalog": "中央仓库"
     },
@@ -591,9 +591,9 @@
       "domain": "效率提升与自动化",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "1.0.0",
-      "updated": "2026-10-31",
-      "summary": "通过 CodeArts CLI 用指定模型并发跑多个独立任务，逐项核验输出并处理会话上限（触发词：华为并发）",
+      "version": "1.0.1",
+      "updated": "2026-11-01",
+      "summary": "通过 CodeArts CLI 用指定模型并发跑多个独立任务，错峰 6 秒起跑规避本地状态库抢锁，逐项核验输出并处理会话上限（触发词：华为并发）",
       "catalog": "中央仓库"
     },
     {
@@ -800,8 +800,8 @@
       "domain": "AI 工具与信息服务",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "0.1.0",
-      "updated": "2026-11-01",
+      "version": "0.2.0",
+      "updated": "2026-11-02",
       "summary": "一句话把项目的 AI 接入交给 P066 现有网关：查表解析七字段（项目/生效时间/调用方/备注/预算/模型/厂商 Key 别名）→ 只读预检（fail-c",
       "catalog": "中央仓库"
     }
