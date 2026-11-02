@@ -469,8 +469,8 @@
       "domain": "软件开发与项目协作",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "1.4.0",
-      "updated": "2026-10-29",
+      "version": "1.5.0",
+      "updated": "2026-11-02",
       "summary": "阶段复盘：把一轮开发的一次性劳动转成可复用资产——分层更新踩坑表、规则上收、按固定格式产出自动化候选、给出 skill 沉淀建议（先出概览表+建议级别+带证据理由，用户确认后按 Mac 规范真源建档：命名、结构、可迁移、语义化版本、validate_skill.py、中央登记字段、项目级晋升确认门）、优化用户口令；新建/更新 Skill 时「触发词先行」列为 13 条必守条款第 1 条，先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕），写入 `## 触发词` 与 frontmatter description 并登记中央清单。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「阶段复盘」。",
       "catalog": "中央仓库",
       "id": 43
@@ -800,9 +800,31 @@
       "domain": "AI 工具与信息服务",
       "source": "自建 · 中央仓库",
       "kind": "self",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "updated": "2026-11-02",
-      "summary": "一句话把项目的 AI 接入交给 P066 现有网关：查表解析七字段（项目/生效时间/调用方/备注/预算/模型/厂商 Key 别名）→ 只读预检（fail-c",
+      "summary": "一句话把项目的 AI 接入交给 P066 现有网关：查表解析七字段（项目/生效时间/调用方/备注/预算/模型/厂商 Key 别名）→ 只读预检（fail-closed）→ dry-run → 按显式 provider 与模型创建独立虚拟 Key → 本机钥匙串 → 8078 受控入口 → 最小真实调用与一屏回执；触发词「接网关」默认 DeepSeek 上游项目接入，「Codex 接网关」走 codex-gateway-onboard-local-zh。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 74,
+      "name": "daily-software-checkin-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.1",
+      "updated": "2026-11-02",
+      "summary": "通过 Computer Use 检查并领取 ChatGPT、Qoder CN、CodeArts 的免费每日签到，不登录、不处理验证码",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 75,
+      "name": "codex-gateway-onboard-local-zh",
+      "domain": "AI 工具与信息服务",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.1.0",
+      "updated": "2026-11-02",
+      "summary": "把 Codex CLI 等 OpenAI 兼容客户端接到本机或内网 AI 网关：协议版本、自定义鉴权头、隔离配置目录控 token 三件套，并只做一次最小验证；与 ai-gateway-onboard-local-zh 分工（那个发 Key/定额度，这个管客户端怎么连），触发词「Codex 接网关」。",
       "catalog": "中央仓库"
     }
   ]
