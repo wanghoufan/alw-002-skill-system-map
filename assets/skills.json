@@ -272,8 +272,8 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.3.0",
-      "updated": "2026-10-29",
+      "version": "1.4.0",
+      "updated": "2026-11-02",
       "summary": "在 Mac 端中央仓库创建、验证和登记 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；完成后询问是否复制到当前项目。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀中央技能」。description 压缩至 200 字符内，降低每轮上下文注入成本。触发词规则改为 description 只留 1–2 个核心词。",
       "catalog": "中央仓库"
     },
@@ -283,8 +283,8 @@
       "domain": "AI Agent 与 Skill 治理",
       "source": "自建",
       "kind": "self",
-      "version": "1.3.0",
-      "updated": "2026-10-29",
+      "version": "1.4.0",
+      "updated": "2026-11-02",
       "summary": "在 Windows 11 中央仓库创建、验证和登记 Skill：建档第一步先向用户确认触发词（用户给出的原样全收，智能体补充标〔建议〕并说明理由、不认可即删），触发词写入 `## 触发词` 与 frontmatter description 并登记中央清单；完成后询问是否复制到当前项目。新增 `## 触发词` 小节并把触发词写入 description，本次触发词为「沉淀中央技能」。description 压缩至 200 字符内，降低每轮上下文注入成本。触发词规则改为 description 只留 1–2 个核心词。",
       "catalog": "中央仓库"
     },
@@ -825,6 +825,17 @@
       "version": "1.1.0",
       "updated": "2026-11-02",
       "summary": "把 Codex CLI 等 OpenAI 兼容客户端接到本机或内网 AI 网关：协议版本、自定义鉴权头、隔离配置目录控 token 三件套，并只做一次最小验证；与 ai-gateway-onboard-local-zh 分工（那个发 Key/定额度，这个管客户端怎么连），触发词「Codex 接网关」。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 76,
+      "name": "main-developer-orchestrator-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "summary": "主开发者只协调、只分发、只报告：读 HANDOFF 接续，把下一步拆成有边界的任务，用华为并发派多路子代理完成全部代码与文档；接手不跑全量回归，自己不写任何内容。",
       "catalog": "中央仓库"
     }
   ]
