@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "skills": [
     {
       "id": 1,
@@ -836,6 +836,17 @@
       "version": "1.0.0",
       "updated": "2026-11-02",
       "summary": "主开发者只协调、只分发、只报告：读 HANDOFF 接续，把下一步拆成有边界的任务，用华为并发派多路子代理完成全部代码与文档；接手不跑全量回归，自己不写任何内容。",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 77,
+      "name": "ios-device-connect-local-zh",
+      "domain": "数字设备与空间管理",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-03",
+      "summary": "数据线连接 iPhone/iPad 并读设备信息：ioreg 验 USB、按 iOS 版本分栈（17+ devicectl / 16- libimobiledevice）、配对校验后只读取值；只读不外流个人数据",
       "catalog": "中央仓库"
     }
   ]
