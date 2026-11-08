@@ -1,16 +1,18 @@
 [简体中文](./README.md) | English
 
-# Skill Capability Map (ALW-002)
+# Skill Capability Map
 
 A personal map of reusable skills from work, learning, and everyday life. It shows how capabilities are distributed, where they come from, and how they connect across workflows.
 
 **Live site:** [Open the Skill Capability Map](https://wanghoufan.github.io/alw-002-skill-system-map/)
 
-<p><img src="./assets/screenshots/持续改进.png" alt="Continuous improvement: Skill activity heatmap and recent updates" width="100%"></p>
+<p>
+  <img src="./assets/screenshots/持续改进.png" width="200" alt="Continuous improvement: Skill activity heatmap and recent updates">
+  <img src="./assets/screenshots/工作与生活的流程地图.png" width="200" alt="Workflows: life system and project delivery">
+  <img src="./assets/screenshots/能力盘点.png" width="200" alt="Capability inventory: Skill statistics, filters, and list">
+</p>
 
-<p><img src="./assets/screenshots/工作与生活的流程地图.png" alt="Workflows: life system and project delivery" width="100%"></p>
-
-<p><img src="./assets/screenshots/能力盘点.png" alt="Capability inventory: Skill statistics, filters, and list" width="100%"></p>
+*These are real screenshots of the live page.*
 
 ## What the map shows
 

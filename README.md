@@ -1,16 +1,18 @@
 简体中文 | [English](./README.en.md)
 
-# Skill 能力地图（ALW-002）
+# Skill 能力地图
 
 把工作、学习和生活中的方法整理成可复用的 Skill，直观看到能力分布、来源和流程之间的联系。
 
 **在线浏览：**[打开 Skill 能力地图](https://wanghoufan.github.io/alw-002-skill-system-map/)
 
-<p><img src="./assets/screenshots/持续改进.png" alt="持续改进：Skill 迭代热力图与近期更新" width="100%"></p>
+<p>
+  <img src="./assets/screenshots/持续改进.png" width="200" alt="持续改进：Skill 迭代热力图与近期更新">
+  <img src="./assets/screenshots/工作与生活的流程地图.png" width="200" alt="工作流：生活系统和项目交付流程">
+  <img src="./assets/screenshots/能力盘点.png" width="200" alt="能力盘点：Skill 统计、来源筛选和清单">
+</p>
 
-<p><img src="./assets/screenshots/工作与生活的流程地图.png" alt="工作流：生活系统和项目交付流程" width="100%"></p>
-
-<p><img src="./assets/screenshots/能力盘点.png" alt="能力盘点：Skill 统计、来源筛选和清单" width="100%"></p>
+*三张图为在线页面的真实截图。*
 
 ## 地图里有什么
 
