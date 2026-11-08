@@ -1,6 +1,6 @@
 {
   "source": "中央 Skill 登记档案 + 当前个人技能库（已安装清单）",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-09",
   "skills": [
     {
       "id": 1,
@@ -828,17 +828,6 @@
       "catalog": "中央仓库"
     },
     {
-      "id": 76,
-      "name": "main-developer-orchestrator-local-zh",
-      "domain": "效率提升与自动化",
-      "source": "自建 · 中央仓库",
-      "kind": "self",
-      "version": "1.0.0",
-      "updated": "2026-11-02",
-      "summary": "主开发者只协调、只分发、只报告：读 HANDOFF 接续，把下一步拆成有边界的任务，用华为并发派多路子代理完成全部代码与文档；接手不跑全量回归，自己不写任何内容。",
-      "catalog": "中央仓库"
-    },
-    {
       "id": 77,
       "name": "ios-device-connect-local-zh",
       "domain": "数字设备与空间管理",
@@ -847,6 +836,248 @@
       "version": "1.0.0",
       "updated": "2026-11-03",
       "summary": "数据线连接 iPhone/iPad 并读设备信息：ioreg 验 USB、按 iOS 版本分栈（17+ devicectl / 16- libimobiledevice）、配对校验后只读取值；只读不外流个人数据",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 78,
+      "name": "a4-study-sheet-local-zh",
+      "domain": "学习与知识管理",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-04",
+      "summary": "把歌词、台词、讲稿排成可直接打印的 A4 学习稿：一页放下、双栏、重复段落移右栏并对齐、字号自适应，导出 PDF 与 HTML",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 79,
+      "name": "android-fgs-long-audio-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-04",
+      "summary": "Android 长音频锁屏续播：前台服务 mediaPlayback 承载队列、七条硬约束、原生 JSONL 时间线取证与验收矩阵",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 80,
+      "name": "android-offline-voice-cues-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-06",
+      "summary": "Android 离线中文语音提醒：本地 WAV + SoundPool 预加载，含资产生成、间隔节点、暂停重启去重与失败回退",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 81,
+      "name": "android-true-device-qa-orchestrator-local-zh",
+      "domain": "测试与质量保障",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.3.2",
+      "updated": "2026-11-08",
+      "summary": "安卓真机验收编排与清场：阶段 0 前置体检（强制）+ 目标判定 + 取证落盘 + 收尾清场 + 固定回执",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 82,
+      "name": "asr-gateway-onboarding-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "summary": "把语音识别等非 chat 云服务接进自建网关：项目级运行时令牌、服务端代连、按时长原子扣费、协议字段核对",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 83,
+      "name": "bilingual-segment-qc-local-zh",
+      "domain": "测试与质量保障",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-03",
+      "summary": "中英分段质检闸：span 还原、分句拼接、全文覆盖、段长区间、跨段重复、中英段数对齐，加四条语义判据",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 84,
+      "name": "capacitor-file-export-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-04",
+      "summary": "让 Capacitor / WebView 应用导出真的落盘：PDF、图片、CSV、音频写 Filesystem，再用系统分享交出去",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 85,
+      "name": "capacitor-pwa-android-package-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-05",
+      "summary": "把已有 PWA 用 Capacitor 包成安卓 App 并真机验收：跳过 SW、系统分享导出、返回键分层、安全区与图标适配",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 86,
+      "name": "dispatch-verify-loop-local-zh",
+      "domain": "项目管理与智能体协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-03",
+      "summary": "派工后的验收闭环：派工前证执行端可用并记基线，回收逐路取退出码与产物，按 PASS / PARTIAL / NOT_RUN 判定",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 87,
+      "name": "dual-copy-page-sync-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-04",
+      "summary": "源文件与线上产物双份页面的同步与差异断言：先判哪份在被服务，再按允许差异与差异预算打补丁",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 88,
+      "name": "file-watch-ingest-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-08",
+      "summary": "文件监听自动入库的可靠性判据：五道闸、落盘台账与 hash 幂等、.part 原子改名、跨平台丢事件差异与六项验收",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 89,
+      "name": "gui-checkin-fast-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "summary": "纯 GUI 每日签到提速：当轮截图 + 本地灰度指纹替代云端视觉推理，单进程剧本自动分层导航，含六道安全闸",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 90,
+      "name": "gui-checkin-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-06",
+      "summary": "无 Computer Use 时的纯 GUI 每日签到：全屏截图、视觉定位、真实点击、逐次回读，含七条红线与三态汇报",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 91,
+      "name": "local-library-prune-local-zh",
+      "domain": "数字设备与空间管理",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-05",
+      "summary": "按「只保留这几首」批量清理本地曲库并可整体恢复：一致性快照、事务级联删除、孤儿清理与计数核对",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 92,
+      "name": "project-experience-sedimentation-local-zh",
+      "domain": "AI Agent 与 Skill 治理",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-08",
+      "summary": "把多个项目的踩坑与项目级 Skill 批量上收：三源交叉选样本、六类采集、四类分流、规则草案与版本同步",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 93,
+      "name": "pwa-desktop-shortcut-verify-local-zh",
+      "domain": "测试与质量保障",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.1.1",
+      "updated": "2026-11-08",
+      "summary": "真机核对 Android PWA「添加到桌面」是否成立：先查是否已加过，再验图标文字与 standalone 类型，含能力探测",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 94,
+      "name": "report-evidence-discipline-local-zh",
+      "domain": "内容创作与表达",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-05",
+      "summary": "报告与验收前的证据分级检查：每条结论能指到文件或命令输出，拦截编数字、无出处与复述旧数据",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 95,
+      "name": "service-endpoint-failover-local-zh",
+      "domain": "部署与运维",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.1.0",
+      "updated": "2026-11-05",
+      "summary": "本地服务 + 手机客户端配两套地址自动择优：在家走局域网、出门走 Tailscale / VPN，无需手改地址",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 96,
+      "name": "sm-card-regression-local-zh",
+      "domain": "AI Agent 与 Skill 治理",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-08",
+      "summary": "一处真源、多处派生的一致性回归：核对登记表、地图、看板的名称、版本、日期、计数与引用，出固定回执",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 97,
+      "name": "trae-batch-project-onboard-local-zh",
+      "domain": "项目管理与智能体协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.1.0",
+      "updated": "2026-11-06",
+      "summary": "在 macOS 上用纯 GUI 按编号批量把本地项目加入 TRAE：逐项建会话、发指定指令、重命名任务并截图回读",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 98,
+      "name": "unattended-guard-local-zh",
+      "domain": "效率提升与自动化",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.1",
+      "updated": "2026-11-08",
+      "summary": "给无人值守任务上四关门禁：系统托管、KeepAlive 存活、日志落项目内、回读最近一次执行，含处置矩阵",
+      "catalog": "中央仓库"
+    },
+    {
+      "id": 99,
+      "name": "webview-media-control-guard-local-zh",
+      "domain": "软件开发与项目协作",
+      "source": "自建 · 中央仓库",
+      "kind": "self",
+      "version": "1.0.0",
+      "updated": "2026-11-08",
+      "summary": "WebView 接入云端 TTS / 连续音频前的守卫：Web Audio 承载、统一暂停继续停止、控制栏吸顶，含故障判据",
       "catalog": "中央仓库"
     }
   ]
