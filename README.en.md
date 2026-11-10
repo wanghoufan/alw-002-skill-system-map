@@ -26,12 +26,12 @@ Domains include life management, travel, requirements, project collaboration, UI
 
 ## Public data snapshot
 
-The public page reflects a data snapshot from **2026-11-10**, with 99 “available” Skills. Only entries marked “available” in the central registry are counted; archived, undistributed, and non-user-level entries are excluded. Translations and their English originals are listed separately. Community contributions and entries with unverified sources are labeled “Community / Unverified.”
+The public page reflects a data snapshot from **2026-11-11**, with 100 “available” Skills. Only entries marked “available” in the central registry are counted; archived, undistributed, and non-user-level entries are excluded. Translations and their English originals are listed separately. Community contributions and entries with unverified sources are labeled “Community / Unverified.”
 
 | Source | Count | Description |
 | --- | ---: | --- |
-| Self-built | 80 | Original skills and practical experience captured for reuse |
-| Official upstream | 9 | Skills from official product or project repositories |
+| Self-built | 82 | Original skills and practical experience captured for reuse |
+| Official upstream | 8 | Skills from official product or project repositories |
 | Community / Unverified | 10 | Community contributions or entries whose source has not been confirmed |
 
 The inventory follows the “status” column of the central `SKILL-REGISTRY.md` and includes only “available” entries, then cross-checks names against the locally installed Skill Manager list. Built-in plugin Skills, ORCA roles, and project-specific practices are excluded. The activity heatmap counts change records in the central registry; it does not measure quality or time spent.
