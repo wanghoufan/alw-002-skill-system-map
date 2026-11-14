@@ -26,7 +26,7 @@ Domains include life management, travel, requirements, project collaboration, UI
 
 ## Public data snapshot
 
-The public page reflects a data snapshot from **2026-11-13**, with 101 “available” Skills. Only entries marked “available” in the central registry are counted; archived, undistributed, and non-user-level entries are excluded. Translations and their English originals are listed separately. Community contributions and entries with unverified sources are labeled “Community / Unverified.”
+The public page reflects a data snapshot from **2026-11-14**, with 101 “available” Skills. Only entries marked “available” in the central registry are counted; archived, undistributed, and non-user-level entries are excluded. Translations and their English originals are listed separately. Community contributions and entries with unverified sources are labeled “Community / Unverified.”
 
 | Source | Count | Description |
 | --- | ---: | --- |
